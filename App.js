@@ -1,5 +1,11 @@
 import React from "react";
-import { Text, View } from "react-native";
-import App from "./screens/home";
+import { StoreProvider } from "./store";
+import Home from "./screens/home";
 
-export default () => <App />;
+export default () => {
+  return (
+    <StoreProvider>
+      <Home />
+    </StoreProvider>
+  );
+};
