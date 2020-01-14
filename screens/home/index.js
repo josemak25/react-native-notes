@@ -1,6 +1,8 @@
 import React from "react";
 import { Text, View } from "react-native";
-import BackButton from "../../components/BackButton";
+import BackButton from "../../assets/BackButton";
+import Tab from "../../components/Tab";
+import TodoList from "./TodoList";
 import styles from "./styles";
 
 export default function App() {
@@ -10,7 +12,10 @@ export default function App() {
         <BackButton />
         <Text style={styles.headerText}>My awesome todo list</Text>
       </View>
-      <View style={styles.body}></View>
+      <View style={styles.body}>
+        <Tab />
+        <TodoList />
+      </View>
     </View>
   );
 }
