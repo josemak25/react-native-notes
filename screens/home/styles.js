@@ -30,6 +30,8 @@ export default styles = {
 
   todoList: {
     marginTop: 30,
-    width: "80%"
+    width: "100%",
+    borderTopWidth: 2,
+    borderColor: "#e6ebee"
   }
 };

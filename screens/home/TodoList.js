@@ -19,6 +19,7 @@ export default function TodoList() {
         renderItem={({ item }) => <Todo todo={item} />}
         keyExtractor={todo => todo.id}
         showsVerticalScrollIndicator={false}
+        contentContainerStyle={{ paddingBottom: 60 }}
       />
     </View>
   ) : (

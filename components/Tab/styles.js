@@ -27,11 +27,10 @@ export default styles = {
     position: "absolute",
     top: 0,
     left: 0,
-    backgroundColor: "#2ad2fc",
     shadowOffset: { width: 0, height: 3 },
-    elevation: 2,
+    elevation: 0.5,
     shadowColor: "#E7E9EF",
-    shadowOpacity: 0.5
+    shadowOpacity: 0.1
   }
 };
 
