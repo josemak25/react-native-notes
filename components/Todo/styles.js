@@ -1,7 +1,8 @@
 export default styles = {
   container: {
     height: 80,
-    width: "100%",
+    width: "80%",
+    alignSelf: "center",
     flexDirection: "row",
     backgroundColor: "#fff",
     alignItems: "center",
@@ -19,13 +20,34 @@ export default styles = {
   picture: {
     width: 50,
     height: 50,
-    borderRadius: 10
+    borderRadius: 10,
+    position: "relative"
+  },
+
+  online: {
+    width: 10,
+    height: 10,
+    borderRadius: 10 / 2,
+    position: "absolute",
+    zIndex: 1,
+    left: 60,
+    bottom: 15,
+    backgroundColor: "#52de97"
+  },
+
+  delete: {
+    width: 40,
+    height: 40,
+    borderRadius: 40 / 2,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#E7E9EF",
+    marginLeft: 10
   },
 
   details: {
     height: 40,
     justifyContent: "space-between",
     marginLeft: 15
-    // borderWidth: 1
   }
 };
